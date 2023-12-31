@@ -1,0 +1,128 @@
+
+header{
+    padding: 20px;
+    /* background-color: rgb(255, 218, 224); */
+    background: linear-gradient(90deg, #f0b1ef 0.75%, #005696 145.61%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.candidat_name{
+    font-size: 36px;
+    font-weight: 700;
+    transition: all .3s linear;
+}
+.candidat_name:hover{
+    transform: scale(1.1);
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 22px;
+}
+.contacts a {
+    margin-bottom: 10px;
+    color: inherit;
+    text-decoration: none;
+}
+.contacts a:hover{
+    text-decoration: underline;
+}
+
+
+/* main start */
+
+main{
+    background-color: rgb(170, 234, 255);
+    min-height: 70vh;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #f89d15 0.80%, #1b3a51 150%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+
+    margin-bottom: 20px;
+}
+
+/* answers */
+
+.answers{
+    width: 100%;
+    padding: 5px;
+}
+.answer{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+@media (max-width: 900px){
+    .answer{
+        flex-direction: column;
+        align-items:center;
+    }
+}
+
+
+.scrin{
+    width: 49%;
+    border: 1px solid #fff;
+    margin-right: 15px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 15px #3787f6;
+
+}
+@media (max-width: 900px){
+    .scrin{
+        margin-bottom: 10px;
+    }
+}
+.description{
+    border-radius: 30px;
+    box-shadow: 3px 3px 15px #3787f6;
+    width: 49%;
+    padding: 25px;
+    font-size: 22px;
+}
+
+.text{
+    font-size: 28px;
+    background-color: lightgreen;
+    box-shadow: 7px 5px 30px #ccc;
+    padding: 20px 40px;
+    max-width: 800px;
+    border-radius: 20px;
+}
+
+/* footer start */
+
+footer{
+    background-color: #ccc;
+}
+.contacts-footer{
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+.contacts-footer a{
+    margin-right: 20px;
+    color:#005696;
+}
